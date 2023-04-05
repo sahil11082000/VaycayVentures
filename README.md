@@ -1,5 +1,5 @@
 # SafetyNet
 
 <p>
-    SafetyNet is a Mobile Application which is designed to provide security and safety to the users all around the world. SafetyNet is built on top of technologies like A.I. and Machine Learning to provide safety alerts to user's Family and SOS services like police control centre whenever they are in dangerous situations. SafetyNet with its simple and easy to use User Interface help decrease the crime rates which are taken place all over the world which affect the life of individuals. This initiative is taken to help all people in world to feel safe and secure whenever they go.
+    Vaycay Ventures is a Platform which uses travel related data from world bank organization in tourism sector, and with the help machine learning model it will try to Predict the expenditure of the passenger for related tour of a particular place. Vaycay Ventures is design to analyze the data present at world bank and help user to create an estimated budget for their travel. It help in reducing the time to calculate the travel budget manually.
 </p>
