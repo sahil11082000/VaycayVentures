@@ -57,10 +57,10 @@ Problems Encountered and Solutions:
 -----------------------------------------------------------------------------
 
 Website Layout :
-
-Home Page -> dashboard ; Google Map for locations(route optimization)
-Login Page/Sign up Page
-Profile Page -> User credentials ; Trips history;
-About Us Page -> Project Details ; Developers Details
-
+<ul>
+<li>Home Page -> dashboard ; Google Map for locations(route optimization)</li>
+<li>Login Page/Sign up Page</li>
+<li>Profile Page -> User credentials ; Trips history;</li>
+<li>About Us Page -> Project Details ; Developers Details</li>
+</ul>
 </p>
