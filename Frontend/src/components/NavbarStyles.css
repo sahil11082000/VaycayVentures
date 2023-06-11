@@ -16,8 +16,10 @@
 }
 
 .navbar-logo{
-    color: #222;
+    text-decoration: none;
+    color: slateblue;
     font-size: 1.8rem;
+    font-weight: 700;
     cursor: pointer;
     white-space: nowrap;
 }

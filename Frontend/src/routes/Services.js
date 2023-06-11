@@ -14,7 +14,7 @@ function Services() {
             text = 'Plan your Experience with the Best in class Services'
             btnClass='button-mid'
             btnText = 'Explore Now'
-            url='/'
+            url='/explore'
         />
         <Destinations />
         <Footer />

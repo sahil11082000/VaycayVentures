@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <>
       <FooterContainer>
-        <span>Copyright &copy; 2021 Travelo. All rights reserved</span>
+        <span>Copyright &copy; 2021 Vaycay Ventures. All rights reserved</span>
         <ul className="links">
           <li>
             <Link to="/">Home</Link>
