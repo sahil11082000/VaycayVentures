@@ -1,0 +1,148 @@
+.NavbarItems{
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.45);
+    width: 95%;
+    height: 80px;
+    border-radius: 15px;
+    position: fixed;
+    top:20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 9999;
+}
+
+.navbar-logo{
+    color: #222;
+    font-size: 1.8rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    grid-gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: slateblue;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+
+.nav-links i{
+    padding: 10px;
+}
+
+.nav-links:hover{
+    background-color: slateblue;
+    color: white;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links-mobile{
+    display: none;
+}
+
+.button{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: .3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    color: slateblue;
+    border-style: solid;
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover{
+    background-color: slateblue;
+    color: white;
+    border-style: solid;
+    border-radius: .3rem;
+
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 850px){
+    .NavbarItems{
+        z-index: 99;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: rgb(255, 255, 255);
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        align-items: stretch;
+        padding: 150px 0 30px 0;
+        margin: 0;
+        transition: 0.5s ease-in-out;
+        border-radius: 15px;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .menu-icon i{
+        font-size: 1.2rem;
+        color:#222
+    }
+    .nav-menu.active{
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+        transition: 0.5s ease-in-out;
+    }
+    .nav-links{
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+        padding: 2rem 0;
+    }
+    .nav-links:hover{
+        background: #01959a;
+        transition: none;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .nav-links-mobile{
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: auto;
+        border-radius: 4px;
+        width: 80%;
+        text-decoration: none;
+        background: #01959a;
+        color: white;
+        font-weight: 600;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+}
